@@ -21,8 +21,8 @@ ESP32 - Tomato Farm Sensor Node
 WIFI_SSID = "Wokwi-GUEST"
 WIFI_PASSWORD = ""
 
-# MQTT Configuration
-MQTT_BROKER = "broker.hivemq.com"
+# MQTT Configuration - LOCAL BROKER
+MQTT_BROKER = "192.168.1.100"  # ⚠️ Change to your Raspberry Pi IP
 MQTT_PORT = 1883
 MQTT_CLIENT_ID = "ESP32_SensorNode_01"
 
