@@ -19,8 +19,8 @@ WIFI_PASSWORD = "YOUR_WIFI_PASSWORD"   # ضع كلمة السر
 RASPI_IP = "192.168.1.100"    # ⚠️ IP الـ Raspberry Pi
 RASPI_PORT = 5000             # Port بتاع Flask server
 
-# MQTT Settings
-MQTT_BROKER = "broker.hivemq.com"
+# MQTT Settings - LOCAL BROKER
+MQTT_BROKER = "192.168.1.100"  # ⚠️ Change to your Raspberry Pi IP
 MQTT_PORT = 1883
 MQTT_CLIENT_ID = "ESP32CAM_Tomato"
 
